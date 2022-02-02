@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "keep-b7764"
-  }
+    "default": "keep-b7764",
+    "prod": "keep-b7764"
+  },
+  "targets": {}
 }
