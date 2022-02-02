@@ -18,11 +18,11 @@ const Login = ({
   return (
     <div className="App login">
       <h1>Google Keep Clone</h1>
-      <button onClick={onClick} type="button" class="login-with-google-btn" >
+      <button onClick={onClick} type="button" className="login-with-google-btn" >
         Sign in with Google
       </button>
       <p className="or">OR</p>
-      <button onClick={() => history.push("/public/note")} type="button" class="login-with-skip-btn" >
+      <button onClick={() => history.push("/public/note")} type="button" className="login-with-skip-btn" >
         Skip, I want to make a public note
       </button>
     </div>

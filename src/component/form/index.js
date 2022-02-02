@@ -95,10 +95,10 @@ function Form({
             
             <form onSubmit={onSubmit} className="createNote">
                 {
-                    isImp ? <i class="fas fa-star pinned" onClick={toogleStar}></i> : <i class="far fa-star pinned" onClick={toogleStar}></i>
+                    isImp ? <i className="fas fa-star pinned" onClick={toogleStar}></i> : <i className="far fa-star pinned" onClick={toogleStar}></i>
                 }
-                <input  disabled={isLoading} onFocus={() => setshowSubtitle(true)} onBlur={onBLurCallback} value={title} onChange={(e) => setTitle(e.target.value)} placeHolder={"Title"} />
-                {showSubtitle && <textarea disabled={isLoading} value={subtitle} onChange={(e) => setsubTitle(e.target.value)}  placeHolder={"Take a Note"} />}
+                <input  disabled={isLoading} onFocus={() => setshowSubtitle(true)} onBlur={onBLurCallback} value={title} onChange={(e) => setTitle(e.target.value)} placeholder={"Title"} />
+                {showSubtitle && <textarea disabled={isLoading} value={subtitle} onChange={(e) => setsubTitle(e.target.value)}  placeholder={"Take a Note"} />}
                 <button onClick={onSubmit}>
                     <span>+</span>
                 </button>
