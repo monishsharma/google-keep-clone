@@ -1,0 +1,10 @@
+
+.notes_container h4 {
+    text-align: center;
+    margin-top: 50px ;
+}
+.notes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+}
